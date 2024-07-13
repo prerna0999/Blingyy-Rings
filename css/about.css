@@ -1,0 +1,207 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* body{
+    height: 100%;
+    width: 100%;
+} */
+
+::selection {
+    background-color: #ffd936;
+    color: black !important;
+}
+
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+} */
+
+.header{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
+    background-color: white;
+   
+}
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20PX 0PX;
+}
+
+
+.header-section {
+    height: 80px;
+
+    padding: 20px 0;
+}
+.header-section::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+.hero-bg{
+
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 745px;
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+    
+    padding: 22px 0 0;
+    display: inline-block;
+
+}
+
+
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    text-align: right;
+    margin-top: 0px;
+ float: right;
+   gap: 20px;
+   font-family: "Roboto", sans-serif;
+   font-size: 14px;
+   color: #A86E3B;
+
+}
+.nav-item ul li{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    text-transform: capitalize;
+    display: flex;
+    text-align: right;
+    
+}
+
+.about p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-family:  "Roboto", sans-serif;
+    padding-top: 175px;
+    
+
+
+}
+.about h1{
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 90px;
+    margin-top: 0px;
+    font-weight: lighter;
+   
+}
+
+.founder p{ 
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+  padding-top: 155px;
+  text-align: center;
+    
+
+}
+.founder h1{
+    color: black;   
+    font-family: "Cinzel", serif;
+    font-weight: lighter;
+    text-align: center;
+}
+  
+.founder img{
+    width: 400px;
+    padding-top: 40px;
+}
+.dolor h5{
+    text-transform: uppercase;
+    color: black;
+    font-family: "Cinzel", serif;
+    font-weight: lighter;
+    text-align: end;
+  
+
+
+}
+.dolor p{
+    color: black;
+    font-weight: lighter;
+    text-align: end;
+    font-family: "Roboto", sans-serif;
+    padding-top: 30px;
+    
+
+
+}
+.dolor{
+    margin: 10pc;
+}
+.founder-img-main{
+    display: flex;
+}
+.post img{
+    padding-top: 150px;
+}
+
+.journey h6{
+    padding-top: 100px;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-align: center;
+
+
+}
+.journey h1{
+    text-transform: uppercase;
+    color: black;   
+    font-family: "Cinzel", serif;
+    font-weight: lighter;
+    padding-top: 30px;
+    text-align: center;
+    word-spacing: 5px;
+}
+.journey p{
+    text-align: end;
+    color:#A86E3B;
+    font-weight: lighter;
+}
+.journey h4{
+    color: black;   
+    font-family: "Cinzel", serif;
+    font-weight: lighter;
+    padding-top: 50px;
+
+}
+.footer{
+    padding-top: 150px;
+}
+
